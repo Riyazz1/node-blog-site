@@ -1,0 +1,65 @@
+body{
+    background-color: rgba(0, 0, 0, 0.93);
+    color: aliceblue;
+
+}
+nav{
+    text-align: end;
+    padding-right: 100px;
+    padding-top: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: "Kranky", serif;
+    text-align: end;
+    font-size: xx-large;
+    padding-right: 20px;
+}
+nav p {
+   
+    color: white;
+    font-size: 50px;
+    display: inline-block;
+
+  }
+
+footer{
+    color: white;
+    text-align: center;
+    margin-top: 450px;
+
+   
+}
+#cb{
+    font-family:"Kranky", serif;
+    font-size: 50px;
+    text-align: center;
+}
+#form{
+    text-align: center;
+   
+    display: inline-block;
+    margin-left: 500px;
+    height: 550px;
+    width: 500px;
+
+    background-color: rgba(0, 0, 0, 0.93);
+    border-radius: 10px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.93);
+    
+    border: none;
+}
+#form input{
+    width: 400px;
+    height: 30px;
+    font: 1em sans-serif;
+}
+#form P{
+    font-size: 20PX; 
+}
+#bdy{
+    height: 250px;
+    width: 400px;
+    font: 1em sans-serif;
+}
