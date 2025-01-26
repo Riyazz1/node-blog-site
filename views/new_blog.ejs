@@ -13,13 +13,13 @@
     
     <%-include("./partials/nav.ejs") %>
     <div id="form">
-        <form action="" method="post">
+        <form action="/blog" method="post">
             <p>TITLE:</p>
-            <input type="text">
+            <input type="text" name="title">
             <p>SNIPPET:</p>
-            <input type="text" name="" id="">
+            <input type="text" name="snippet" id="">
             <p >BODY:</p>
-            <textarea id="bdy"></textarea>
+            <textarea id="bdy" name="body"> </textarea>
             
             <br>
             <button>SUBMIT</button>
