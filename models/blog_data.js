@@ -1,9 +1,9 @@
-const { default: mongoose } = require("mongoose")
-const moongoose=require("mongoose")
 
-const Schema=mongoose.Schema()
+const mongoose=require("mongoose")
 
-const blogSchema=new Schema({
+const Schema=mongoose.Schema;
+
+const blogSchema= new Schema({
     title:{
         type:String,
         required:true
@@ -20,6 +20,6 @@ const blogSchema=new Schema({
     }
 },{timestamps:true})
 
-const Blog=mongoose.Model('Blog',blogSchema)
+const Blog=mongoose.model('Blog',blogSchema)
 
 module.exports=Blog;
