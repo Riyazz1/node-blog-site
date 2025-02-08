@@ -41,7 +41,7 @@ app.post("/blog",(req,res)=>{
 
 })
 
-app.get("/new_blog",(req,res)=>{
+app.get("/new_blog",(res)=>{
 
     
     res.render("new_blog" )
