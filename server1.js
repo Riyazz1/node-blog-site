@@ -15,7 +15,7 @@ mongoose.set('debug', true);
 app.set("view engine","ejs")
 
 app.use(express.static("views"));
-app.use(express.urlencoded())
+// app.use(express.urlencoded())
 
 
 
